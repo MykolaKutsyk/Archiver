@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>293</width>
+    <height>161</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Authorization</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qlineargradient(spread:pad, x1:0.896, y1:0.722, x2:0.095, y2:0.0852273, stop:0 rgba(193, 72, 218, 255), stop:1 rgba(255, 255, 255, 255));</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QLineEdit" name="lineEdit">
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="placeholderText">
+        <string>Login..</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QLineEdit" name="lineEdit_2">
+       <property name="placeholderText">
+        <string>Password..</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton_2">
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    border-radius:  9px;
+    background-color:  rgb(76, 27, 224);
+    color:  rgb(225, 225, 225);
+    font-size:  20px;
+}
+
+QPushButton:pressed {
+    background-color:  rgb(39, 61, 207);
+}</string>
+       </property>
+       <property name="text">
+        <string>Sign in</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="pushButton">
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+    border-radius:  9px;
+    background-color:  rgb(76, 27, 224);
+    color:  rgb(225, 225, 225);
+    font-size:  20px;
+}
+
+QPushButton:pressed {
+    background-color:  rgb(39, 61, 207);
+}</string>
+       </property>
+       <property name="text">
+        <string>Sign up</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
